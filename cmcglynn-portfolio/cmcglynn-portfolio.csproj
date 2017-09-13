@@ -99,7 +99,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\0807170831c.jpg" />
+    <Content Include="assets\images\0912171437a.jpg" />
     <Content Include="assets\images\2847017-3d-person-puppet-pushing-uphill-a-heavy-stone-Stock-Photo.jpg" />
+    <Content Include="assets\images\cm.jpg" />
+    <Content Include="assets\images\cm_monogram_1x.png" />
     <Content Include="assets\images\maxresdefault %281%29.jpg" />
     <Content Include="assets\images\popeye-wallpaper-free-hd.jpg" />
     <Content Include="JavaScriptExercises\AlphabeticalOrder.js" />
