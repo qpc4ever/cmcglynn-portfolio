@@ -13,7 +13,7 @@
 
     <!-- Site Title -->
     <title>Chris McGlynn - Creative Portfolio/Resume </title>
-    <link rel="shortcut icon" href="~/assets/images/cm_monogram_1x.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="~/assets/images/cm_monogram_1x.png?" type="image/x-icon" />
 
    
 
@@ -66,7 +66,7 @@
                     Chris McGlynn <span class="blinker"></span>
                 </h1>
 
-                <h1 class="small" style="font-size:35px;"><span id="js-rotating">DEVELOPER | DESIGNER | PROGRAMMER | ASP.NET | C# | MVC | JAVASCRIPT | HTML | CSS | Bootstrap | SQL </span></h1>
+                <h1 class="small" style="font-size:35px;"><span id="js-rotating">DEVELOPER | DESIGNER | PROGRAMMER | ASP.NET | C# | MVC | JAVASCRIPT | HTML | CSS | Bootstrap | SQL | GITHUB </span></h1>
 
                 <p>Musician, Audio Engineer, Podcast/Radio Personality, Magazine Editor.</p>
 
@@ -147,7 +147,7 @@
                         <div class="profile-text padding-right-yes">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="section-title">Hello, My Name is Chris McGlynn.</h2>
+                                    <h2 class="section-title">Hello world, My Name is Chris McGlynn.</h2>
                                     <p>
                                         Chris McGlynn was born and raised in New York and Pennsylvania, and currently resides in Oak Ridge North Carolina. Highly motivated creative developer with a propencity to adapt and learn new skills.
                                     </p>
@@ -217,7 +217,7 @@
                         <p class="section-subtitle">I'm looking to expand my portfolio.</p>
                         <span class="divider center"></span>
                         <h1 style="color:#a1a1a1">JAVASCRIPT EXERCISES</h1>
-                        <p>Good coding starts with getting the basics right! These cleanly-coded JavaScript functions written for my Coder Foundry class perform some basic and not-so-basic tasks.</p>
+                        <p>Good coding starts with getting the basics right! These cleanly-coded JavaScript functions written for my Coder Foundry class perform some basic and not-so-basic tasks. Click on one of the exercises to see my work.</p>
                     </div>
                     <!-- //.col-md-12 -->
                 </div>
@@ -569,7 +569,7 @@
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h2 class="section-title">My Resume</h2>
                         <p class="section-subtitle">
-                            If you call failures experiments, you can put them in your resume and claim them as achievements.
+                            If your experiments are a success, you can put them in your resume and claim them as achievements.
                         </p>
                         <span class="divider center"></span>
                     </div>
@@ -999,7 +999,7 @@
         </section>*@
     <!-- //REFERENCES SECTION END -->
     <!-- SKILLS SECTION START -->
-    <section id="skills" class="section">
+    @*<section id="skills" class="section">
         <div class="container section-wrapper">
             <div class="section-content">
                 <div class="row">
@@ -1007,12 +1007,12 @@
                         <h2 class="section-title">Skills & Expertise</h2>
                         <p class="section-subtitle">A winner is someone who recognizes his God-given talents, works his tail off to develop them into skills, and uses these skills to accomplish his goals.</p>
                         <span class="divider center"></span>
-                    </div>
+                    </div>*@
                     <!-- //.col-md-8 -->
-                </div>
+                @*</div>*@
                 <!-- //.row -->
                 <!-- CIRCLE CHART START -->
-                <div class="circle-chart">
+                @*<div class="circle-chart">
                     <div class="row">
                         <div class="col-sm-4 col-md-2">
                             <div class="item">
@@ -1094,7 +1094,7 @@
             <!-- //.section-content -->
         </div>
         <!-- //.container -->
-    </section>
+    </section>*@
     <!-- //SKILLS SECTION END -->
     <!-- KNOWLEDGE SECTION START -->
     @*<section id="knowledge" class="section">
@@ -1542,6 +1542,9 @@
                 <h1>Palindrome Word Check</h1>
                 <input type="text" style="color:black" placeholder="Enter word" id="testword" onkeydown = "if (event.keyCode == 13) document.getElementById('run').click()"/>
                 <button id="run" onclick="palindrome(testword.value)" style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="result"></div>
                 <pre class="brush: js">
             function palindrome(str) {
@@ -1564,6 +1567,9 @@
                 <h1>Get factorial of a number</h1>
                 <input type="number" style="color:black" placeholder="Enter number" id="testNumber" onkeydown = "if (event.keyCode == 13) document.getElementById('Run').click()" />
                 <button id="Run" onclick="numFac()" style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="total"></div>
                 <pre class="brush: js">
             function numFac() {
@@ -1588,6 +1594,9 @@
                 <input type="number" style="color:black" placeholder="Enter number" id="testNumber2" onkeydown = "if (event.keyCode == 13) document.getElementById('run2').click()" />
                 <input type="number" style="color:black" placeholder="Enter number" id="testNumber3" onkeydown = "if (event.keyCode == 13) document.getElementById('run2').click()" />
                 <button id="run2" onclick="fizzBuzz()"style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="result2"></div>
                 <pre class="brush: js">
             function fizzBuzz() {
@@ -1624,6 +1633,9 @@
                 <h1>Test numbers</h1>
 
                 <button id="run3" onclick="numCal()" style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="Result5"></div>
                 <div id="Result"></div>
                 <div id="Result2"></div>
@@ -1678,6 +1690,9 @@
                 <h1>Letters of words in alphabetical order</h1>
                 <input type="text" style="color:black" id="testWord" onkeydown = "if (event.keyCode == 13) document.getElementById('run4').click()" />
                 <button id="run4" onclick="wordAlph(testWord.value)"style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="alph"></div>
                 <pre class="brush: js">
                                 function wordAlph(str) {
@@ -1695,6 +1710,9 @@
                 <h1>Letter combinations of words</h1>
                 <input type="text" style="color:black" id="testWord2" onkeydown = "if (event.keyCode == 13) document.getElementById('run5').click()" />
                 <button id="run5" onclick="wordComb(testWord2.value)" style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="combo"></div>
                 <pre class="brush: js">
                     function wordComb(str1) {
