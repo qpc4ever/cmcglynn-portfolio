@@ -13,15 +13,18 @@
 
     <!-- Site Title -->
     <title>Chris McGlynn - Creative Portfolio/Resume </title>
+    <link rel="shortcut icon" href="~/assets/images/cm_monogram_1x.png?" type="image/x-icon" />
+
+   
 
     <meta name="description" content="Creative Resume Template">
     <meta name="keywords" content="berg, creative, resume, template">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--Syntax Highlighter Reference-->
-    <link href="~/Content/SyntaxHighlighter/shCore.css" rel="stylesheet" />
-    <link href="~/Content/SyntaxHighlighter/shCoreEclipse.css" rel="stylesheet" />
-    <link href="~/Content/SyntaxHighlighter/shThemeEclipse.css" rel="stylesheet" />
+    <link href="~/assets/SyntaxHighlighter/shCore.css" rel="stylesheet" />
+    <link href="~/assets/SyntaxHighlighter/shCoreEclipse.css" rel="stylesheet" />
+    <link href="~/assets/SyntaxHighlighter/shThemeEclipse.css" rel="stylesheet" />
     <!-- Google Font -->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
@@ -58,14 +61,14 @@
     <!-- HERO START -->
     <header id="home" class="hero">
         <div class="hero-body">
-            <div class="hero-text text-center, col-md-8 col--offset-2 text-center">
+            <div class="hero-text text-center">
                 <h1>
                     Chris McGlynn <span class="blinker"></span>
                 </h1>
 
-                <h1 class="small"><span id="js-rotating">WEB DEVELOPER | .NET DESIGNER | C# PROGRAMMER | MVC | JAVASCRIPT | SQL</span></h1>
+                <h1 class="small" style="font-size:35px;"><span id="js-rotating">DEVELOPER | DESIGNER | PROGRAMMER | ASP.NET | C# | MVC | JAVASCRIPT | HTML | CSS | Bootstrap | SQL | GITHUB </span></h1>
 
-                <p>Musician, Audio Engineer, Podcast Personality, Magazine Editor.</p>
+                <p>Musician, Audio Engineer, Podcast/Radio Personality, Magazine Editor.</p>
 
                 <div class="page-scroll">
                     <a href="#profile" class="btn btn-lg btn-custom">
@@ -144,13 +147,13 @@
                         <div class="profile-text padding-right-yes">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="section-title">Hello, My Name is Chris McGlynn.</h2>
+                                    <h2 class="section-title">Hello world, My Name is Chris McGlynn.</h2>
                                     <p>
                                         Chris McGlynn was born and raised in New York and Pennsylvania, and currently resides in Oak Ridge North Carolina. Highly motivated creative developer with a propencity to adapt and learn new skills.
                                     </p>
                                     <span class="divider"></span>
                                     <p class="text-grey">
-                                        I currently work at Coder Foundry, where I spend most of my time crafting and working on awesome projects.
+                                        I currently attend Coder Foundry boot camp, where I spend most of my time crafting and working on awesome projects.
                                     </p>
                                     <p class="text-grey">
                                         @*Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.*@
@@ -176,8 +179,8 @@
                                 </div>
                                 <!-- //.col-md-5 -->
                                 <div class="col-sm-6 col-md-7">
-                                    <a href="#" class="btn btn-lg btn-custom">
-                                        <i class="icon-File-Download"></i> Download Resume
+                                    <a href="~/assets/images/Chris McGlynn.pdf" class="btn btn-lg btn-custom">
+                                        <i class="icon-File"></i> Resume
                                     </a>
                                 </div>
                                 <!-- //.col-md-6 -->
@@ -190,7 +193,9 @@
                     <!-- PROFILE PICTURE START -->
                     <div class="col-md-5 hidden-xs hidden-sm match-height pp-wrapper">
                         <div class="profile-picture style-one">
-                            <img src="~/assets/images/profile-picture-1.jpg" alt="profile picture" class="img-responsive" />
+
+                            
+                            <img src="~/assets/images/IMG_Chris_McGlynn (C).jpg" alt="profile picture" class="img-responsive" style="border-radius:35px;" />
                         </div>
                     </div>
                     <!-- //PROFILE PICTURE END -->
@@ -212,7 +217,7 @@
                         <p class="section-subtitle">I'm looking to expand my portfolio.</p>
                         <span class="divider center"></span>
                         <h1 style="color:#a1a1a1">JAVASCRIPT EXERCISES</h1>
-                        <p>Good coding starts with getting the basics right! These cleanly-coded JavaScript functions written for my Coder Foundry class perform some basic and not-so-basic tasks.</p>
+                        <p>Good coding starts with getting the basics right! These cleanly-coded JavaScript functions written for my Coder Foundry class perform some basic and not-so-basic tasks. Click on one of the exercises to see my work.</p>
                     </div>
                     <!-- //.col-md-12 -->
                 </div>
@@ -220,9 +225,9 @@
                 <!-- PORTFOLIO START -->
                 <div class="portfolio">
                     <div class="content">
-                        <div class="row" style="margin-left:300px;">
+                        <div class="row" style="padding-left:30px; padding-right:30px;">
                             @*<div class="project-wrapper">*@
-                            <div class="item col-sm-6 col-md-3">
+                            <div class="item col-sm-2 col-md-4" >
                                 <a href="#" data-toggle="modal" data-target="#modalPalindrome" class="text-responsive">
                                     <div class="box">
                                         <h4 class="heading">Palindrome</h4>
@@ -235,7 +240,7 @@
                             <!-- //.project-wrapper -->
                             @*</div>*@
                             <!-- //.item -->
-                            <div class="item col-sm-6 col-md-3">
+                            <div class="item col-sm-2 col-md-4">
                                 <a href="#" data-toggle="modal" data-target="#modalFactorial" class="text-responsive">
                                     <div class="box">
                                         <h4 class="heading">Factorial</h4>
@@ -244,7 +249,7 @@
                                 </a>
                             </div>
                             <!-- //.item -->
-                            <div class="item col-sm-6 col-md-3">
+                            <div class="item col-sm-2 col-md-4">
                                 <a href="#" data-toggle="modal" data-target="#modalFizzBuzz" class="text-responsive">
                                     <div class="box">
                                         <h4 class="heading">FizzBuzz</h4>
@@ -260,8 +265,8 @@
                         </div>
                     </div>
                     <!-- //.item -->
-                    <div class="row" style="margin-left:300px;">
-                        <div class="item col-sm-6 col-md-3">
+                    <div class="row" style="padding-left:30px; padding-right:30px;">
+                        <div class="item col-sm-2 col-md-4">
                             <a href="#" data-toggle="modal" data-target="#modalCalc" class="text-responsive">
                                 <div class="box">
                                     <h4 class="heading">Calculator</h4>
@@ -272,12 +277,12 @@
                             </a>
                         </div>
                         <!-- //.project-title -->
-                        <div class="item col-sm-6 col-md-3">
+                        <div class="item col-sm-2 col-md-4">
                             <a href="#" data-toggle="modal" data-target="#modalAlphabeticalOrder" class="text-responsive">
                                 <div class="box">
                                     <h4 class="heading">Alphabetical Order</h4>
                                     <p style="color:white;">
-                                        Takes a word and rearanges the letters in alphabetical order.
+                                        Rearanges words in alphabetical order.
                                     </p>
                                 </div>
                             </a>
@@ -285,7 +290,7 @@
 
 
                         <!-- //.item -->
-                        <div class="item col-sm-6 col-md-3">
+                        <div class="item col-sm-2 col-md-4">
                             <a href="#" data-toggle="modal" data-target="#modalWordCombo" class="text-responsive">
                                 <div class="box">
                                     <h4 class="heading">Word Combo</h4>
@@ -300,53 +305,73 @@
             </div>
         </div>
             <!-- //.item -->
-
-            @*<div class="item col-sm-6 col-md-3">
+        <div class="row" style="margin-left:30px; margin-right:30px;">
+            <div class="item col-sm-6 col-md-4">
                 <div class="project-wrapper">
                     <div class="project-link">
-                        <a href="~/assets/images/portfolio/project-image-7.jpg" class="zoom" title="Dead Pool">
+                        <a href="~/assets/images/Laptop.png" title="Dead Pool">
                             <i class="icon-Full-Screen"></i>
                         </a>
-                        <a href="https://www.behance.net/gallery/25763797/DEADPOOL" target="_blank" class="external-link">
+                        <a href="https://blog.cmcglynn.a2hosted.com/" target="_blank" class="external-link">
                             <i class="icon-Link"></i>
                         </a>
                     </div>
                     <!-- //.project-link -->
                     <div class="project-title">
-                        <h4>Dead Pool</h4>
+                        <h4>My Blog</h4>
                     </div>
                     <!-- //.project-title -->
-                    <img src="~/assets/images/portfolio/project-image-7.jpg" alt="" class="img-responsive" />
+                    <a href="https://blog.cmcglynn.a2hosted.com/"><img src="~/assets/images/Laptop.png" height="300" width="300" alt="" class="img-responsive" /></a>
                 </div>
                 <!-- //.project-wrapper -->
             </div>
             <!-- //.item -->
-            <div class="item col-sm-6 col-md-3">
+            <div class="item col-sm-6 col-md-4">
                 <div class="project-wrapper">
                     <div class="project-link">
-                        <a href="~/assets/images/portfolio/project-image-8.jpg" class="zoom" title="Rebus II">
+                        <a href="~/assets/images/QPCPodcast3NoTextCrop.png" class="zoom" title="Rebus II">
                             <i class="icon-Full-Screen"></i>
                         </a>
-                        <a href="https://www.behance.net/gallery/19401293/Rebus-2" target="_blank" class="external-link">
+                        <a href="https://bugtracker.cmcglynn.a2hosted.com/" target="_blank" class="external-link">
                             <i class="icon-Link"></i>
                         </a>
                     </div>
                     <!-- //.project-link -->
                     <div class="project-title">
-                        <h4>Rebus II</h4>
+                        <h4>Bug Tracker</h4>
                     </div>
                     <!-- //.project-title -->
-                    <img src="~/assets/images/portfolio/project-image-8.jpg" alt="" class="img-responsive" />
+                    <a href="https://bugtracker.cmcglynn.a2hosted.com/"><img src="~/assets/images/QPCPodcast3NoTextCrop.png" height="180" width="180" alt="" class="img-responsive" /></a>
+                </div>
+                <!-- //.project-wrapper -->
+            </div>
+            <div class="item col-sm-6 col-md-4">
+                <div class="project-wrapper">
+                    <div class="project-link">
+                        <a href="~/assets/images/PNGPIX-COM-Dollar-Sign-PNG-Image.png" class="zoom" title="Rebus II">
+                            <i class="icon-Full-Screen"></i>
+                        </a>
+                        <a href="https://financial-portal.cmcglynn.a2hosted.com/" target="_blank" class="external-link">
+                            <i class="icon-Link"></i>
+                        </a>
+                    </div>
+                    <!-- //.project-link -->
+                    <div class="project-title">
+                        <h4>Budgeter</h4>
+                    </div>
+                    <!-- //.project-title -->
+                    <a href="https://financial-portal.cmcglynn.a2hosted.com/"><img src="~/assets/images/PNGPIX-COM-Dollar-Sign-PNG-Image.png" height="280" width="200" style="margin-top:20px" alt="" class="img-responsive" /></a>
                 </div>
                 <!-- //.project-wrapper -->
             </div>
             <!-- //.item -->
             <!-- //.row -->
         </div>
+      
         <!-- PORTFOLIO END -->
-        </div>
+      
         <!-- //.section-content -->
-        </div>*@
+        
         <!-- //.container-fluid -->
     </section>
     <!-- //PORTFOLIO SECTION END -->
@@ -373,7 +398,7 @@
                                 <i class="icon-Chess colored-text"></i>
                                 <h4>1. Strategy</h4>
                                 <p class="text-grey">
-                                    From the initial concept of an idea, web design development and social media all leed to creating a brand.
+                                    From the initial concept of an idea, web design, development, and social media all leed to creating a solid brand.
                                 </p>
                             </div>
                             <!-- //.inner-content -->
@@ -395,7 +420,7 @@
                                 <i class=" icon-Transform-2 colored-text"></i>
                                 <h4>3. Web Design</h4>
                                 <p class="text-grey">
-                                    By implementing HTML css Javascript c# and MVC framework, highly secure and aesthetically pleasing as well as funcional web sites are created.
+                                    By implementing HTML CSS Javascript C# and MVC framework, highly secure and aesthetically pleasing as well as functionaly interactive web sites are created.
                                 </p>
                             </div>
                             <!-- //.inner-content -->
@@ -407,7 +432,7 @@
                                 <i class="icon-Speach-Bubble3 colored-text"></i>
                                 <h4>4. Social Media</h4>
                                 <p class="text-grey">
-                                    Facebook twitter and instagram are all powerful tools to bring a business application or brand to the next level.
+                                    Linkedin, facebook, twitter, and instagram are all powerful tools to bring a business application or brand to the next level.
                                 </p>
                             </div>
                             <!-- //.inner-content -->
@@ -446,7 +471,7 @@
     </section>
     <!-- //SERVICES SECTION END -->
     <!-- STRENGTHS SECTION START -->
-    <section id="strengths" class="section bg-image-yes">
+    @*<section id="strengths" class="section bg-image-yes">
         <div class="container-fluid section-wrapper">
             <div class="section-content">
                 <div class="row">
@@ -460,9 +485,9 @@
                 <!-- //.row -->
 
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12">*@
                         <!-- COLUMN CHART START -->
-                        <div class="column-chart">
+                        @*<div class="column-chart">
                             <div class="legend legend-left hidden-xs">
                                 <h3 class="legend-title">ME</h3>
                             </div>
@@ -553,8 +578,8 @@
             </div>
             <!-- //.section-content -->
         </div>
-        <!-- //.container -->
-    </section>
+        <!-- //.container -->*@
+    @*</section>*@
     <!-- //STRENGTHS SECTION END -->
     <!-- RESUME SECTION START -->
     <section id="resume" class="section">
@@ -564,10 +589,11 @@
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h2 class="section-title">My Resume</h2>
                         <p class="section-subtitle">
-                            If you call failures experiments, you can put them in your resume and claim them as achievements.
+                            If your experiments are a success, you can put them in your resume and claim them as achievements.
                         </p>
                         <span class="divider center"></span>
                     </div>
+                </div>
                     <!-- //.col-md-8 -->
                 </div>
                 <!-- //.row -->
@@ -577,12 +603,12 @@
                         <h3>
                             My Education
                             <br>
-                            2003 - 2012
+                            2000 - 2017
                         </h3>
                         <div class="panel-group resume" id="education">
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2010 - 2012</span>
+                                    <span class="resume-year">2017</span>
                                 </div>
                                 <!-- //.resume-year -->
                                 <div class="resume-btn">
@@ -592,17 +618,16 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Masters Degree - University Name</h4>
+                                            <h4 class="resume-title">Coding/Software Development-Coder Foundry</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
                                     <!-- //.panel-heading -->
-                                    <div id="education1" class="panel-collapse collapse in">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                            </p>
-                                        </div>
+                                                                        <div id="education1" class="panel-collapse collapse in">
+                                               <div class="panel-body text-grey">
+                                                   <p>
+                                                     I learned HTML, CSS, Javascript, Bootstrap, C#, and MVC to design amazing looking, highly functional, and secure web applications.</p>
+                                               </div>
                                         <!-- //.panel-body -->
                                     </div>
                                     <!-- //.panel-collapse -->
@@ -610,27 +635,27 @@
                                 <!-- //.panel -->
                             </div>
                             <!-- //.resume-item -->
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2005 - 2008</span>
+                            <div @*class="resume-item"*@>
+                                <div @*class="resume-year"*@>
+                                    @*<span*@ @*class="resume-year">2017*@@*</span>*@
                                 </div>
                                 <!-- //.resume-year -->
-                                <div class="resume-btn">
-                                    <a href="#education2" class="collapsed" data-toggle="collapse" data-parent="#education"></a>
+                                <div @*class="resume-btn"*@>
+                                    <a @*href="#education2" class="collapsed" data-toggle="collapse" data-parent="#education"*@></a>
                                 </div>
                                 <!-- //.resume-btn -->
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Bachelors Degree - University Name</h4>
+                                <div @*class="panel"*@>
+                                    <div @*class="panel-heading"*@>
+                                        <div @*class="panel-title"*@>
+                                            @*<h4*@ @*class="resume-title">Software Developing-Coder Foundry*@@*</h4>*@
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
                                     <!-- //.panel-heading -->
-                                    <div id="education2" class="panel-collapse collapse">
-                                        <div class="panel-body text-grey">
+                                    <div @*id="education2" class="panel-collapse collapse"*@>
+                                        <div @*class="panel-body text-grey"*@>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                               @*Learned HTML, css, Javascript, C#, Bootstrap, and MVC to design amazing looking higly functional and secure web applications.*@
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -642,7 +667,7 @@
                             <!-- //.resume-item -->
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2003 - 2005</span>
+                                    <span class="resume-year">2000 - 2002</span>
                                 </div>
                                 <!-- //.resume-year -->
                                 <div class="resume-btn">
@@ -652,7 +677,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Graduation - College Name</h4>
+                                            <h4 class="resume-title">Audio Engineering - GTCC</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -660,7 +685,7 @@
                                     <div id="education3" class="panel-collapse collapse">
                                         <div class="panel-body text-grey">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                                I learned how to track, mix, and master audio recordings using Pro Tools which is the industry standard in audio engineering software. I also gained extensive knowledge of microphones, compression, EQ, mic placement, consoles, outboard effects, and plug-ins.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -682,12 +707,12 @@
                         <h3>
                             Work Experience
                             <br>
-                            2006 - Now
+                            2000 - Now
                         </h3>
                         <div class="panel-group resume" id="work">
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2013 - Now</span>
+                                    <span class="resume-year">2016 - Now</span>
                                 </div>
                                 <!-- //.resume-year -->
                                 <div class="resume-btn">
@@ -697,7 +722,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Senior Designer - Galley La Company</h4>
+                                            <h4 class="resume-title">Web Design/Music Editor-The Arrival Magazine</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -707,7 +732,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Design of print collateral and websites for various clients and markets, development of new and existing brands, 3D modeling of floor and site plans.
+                                               Web Design/Maintenance and Deligating responsabilities to writers and photographers.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -719,7 +744,7 @@
                             <!-- //.resume-item -->
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2010 - 2013</span>
+                                    <span class="resume-year">2005 - Now</span>
                                 </div>
                                 <!-- //.resume-year -->
                                 <div class="resume-btn">
@@ -729,7 +754,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Graphic Designer - Company Name</h4>
+                                            <h4 class="resume-title">College Radio/Podcasting</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -739,7 +764,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Design of print collateral and trade show displays, redesign of company website and microsites, design and development of email blasts, development of brands for affiliate organizations.
+                                                On air personality as well as technical engineer.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -751,7 +776,7 @@
                             <!-- //.resume-item -->
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2007 - 2010</span>
+                                    <span class="resume-year">2000 - Now</span>
                                 </div>
                                 <!-- //.resume-year -->
                                 <div class="resume-btn">
@@ -761,7 +786,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">IT Specialist - Company Name</h4>
+                                            <h4 class="resume-title">Musician/Song Writer</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -771,7 +796,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Filming and editing of promotional videos, administration of system and network integrity.
+                                                Singer, Guitar Player, Bass Guitar Player, Song Writer.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -783,7 +808,7 @@
                             <!-- //.resume-item -->
                             <div class="resume-item">
                                 <div class="resume-year">
-                                    <span class="resume-year">2006 - 2007</span>
+                                    <span class="resume-year">2000 - Now</span>
                                 </div>
                                 <!-- //.resume-year -->
                                 <div class="resume-btn">
@@ -793,7 +818,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h4 class="resume-title">Graphic Designer Intern - Company Name</h4>
+                                            <h4 class="resume-title">Owner/Operator of QPC recording studio</h4>
                                         </div>
                                         <!-- //.panel-title -->
                                     </div>
@@ -803,7 +828,7 @@
                                             <p>
                                                 Responsibilities:
                                                 <br>
-                                                Redesign of brand guidelines and standards microsite, design of departmental logo lock-ups, photography of products for marketing collateral, design of corporate Twitter layout.
+                                                Tracking, Mixing, and Mastering engineer.
                                             </p>
                                         </div>
                                         <!-- //.panel-body -->
@@ -821,7 +846,7 @@
                 <!-- //WORK EXPERIENCE END -->
             </div>
             <!-- //.section-content -->
-        </div>
+        @*</div>*@
         <!-- //.container -->
     </section>
     <!-- //RESUME SECTION END -->
@@ -995,7 +1020,7 @@
         </section>*@
     <!-- //REFERENCES SECTION END -->
     <!-- SKILLS SECTION START -->
-    <section id="skills" class="section">
+    @*<section id="skills" class="section">
         <div class="container section-wrapper">
             <div class="section-content">
                 <div class="row">
@@ -1003,20 +1028,20 @@
                         <h2 class="section-title">Skills & Expertise</h2>
                         <p class="section-subtitle">A winner is someone who recognizes his God-given talents, works his tail off to develop them into skills, and uses these skills to accomplish his goals.</p>
                         <span class="divider center"></span>
-                    </div>
+                    </div>*@
                     <!-- //.col-md-8 -->
-                </div>
+                @*</div>*@
                 <!-- //.row -->
                 <!-- CIRCLE CHART START -->
-                <div class="circle-chart">
+                @*<div class="circle-chart">
                     <div class="row">
                         <div class="col-sm-4 col-md-2">
                             <div class="item">
                                 <div class="circle">
-                                    <span class="item-progress" data-percent="45"></span>
+                                    <span class="item-progress" data-percent="100"></span>
                                 </div>
                                 <!-- //.circle -->
-                                <span class="percent">45%</span>
+                                <span class="percent"></span>
                                 <h4 class="text-center">HTML5 + CSS3</h4>
                             </div>
                             <!-- //.item -->
@@ -1025,10 +1050,10 @@
                         <div class="col-sm-4 col-md-2">
                             <div class="item">
                                 <div class="circle">
-                                    <span class="item-progress" data-percent="65"></span>
+                                    <span class="item-progress" data-percent="100"></span>
                                 </div>
                                 <!-- //.circle -->
-                                <span class="percent">45%</span>
+                                <span class="percent"><i class="icon-Thumbs-UpSmiley x3" style="font-size:25px;padding-top:20px;"></i></span>
                                 <h4 class="text-center">MVC</h4>
                             </div>
                             <!-- //.item -->
@@ -1037,10 +1062,10 @@
                         <div class="col-sm-4 col-md-2">
                             <div class="item">
                                 <div class="circle">
-                                    <span class="item-progress" data-percent="55"></span>
+                                    <span class="item-progress" data-percent="100"></span>
                                 </div>
                                 <!-- //.circle -->
-                                <span class="percent">35%</span>
+                                <span class="percent"></span>
                                 <h4 class="text-center">Javascript</h4>
                             </div>
                             <!-- //.item -->
@@ -1049,10 +1074,10 @@
                         <div class="col-sm-4 col-md-2">
                             <div class="item">
                                 <div class="circle">
-                                    <span class="item-progress" data-percent="45"></span>
+                                    <span class="item-progress" data-percent="100"></span>
                                 </div>
                                 <!-- //.circle -->
-                                <span class="percent">45%</span>
+                                <span class="percent"></span>
                                 <h4 class="text-center">C#</h4>
                             </div>
                             <!-- //.item -->
@@ -1061,10 +1086,10 @@
                         <div class="col-sm-4 col-md-2">
                             <div class="item">
                                 <div class="circle">
-                                    <span class="item-progress" data-percent="65"></span>
+                                    <span class="item-progress" data-percent="100"></span>
                                 </div>
                                 <!-- //.circle -->
-                                <span class="percent">85%</span>
+                                <span class="percent"></span>
                                 <h4 class="text-center">Pro Tools</h4>
                             </div>
                             <!-- //.item -->
@@ -1073,10 +1098,10 @@
                         <div class="col-sm-4 col-md-2">
                             <div class="item last">
                                 <div class="circle">
-                                    <span class="item-progress" data-percent="55"></span>
+                                    <span class="item-progress" data-percent="100"></span>
                                 </div>
                                 <!-- //.circle -->
-                                <span class="percent">45%</span>
+                                <span class="percent"></span>
                                 <h4 class="text-center">Photo Shop</h4>
                             </div>
                             <!-- //.item -->
@@ -1090,10 +1115,10 @@
             <!-- //.section-content -->
         </div>
         <!-- //.container -->
-    </section>
+    </section>*@
     <!-- //SKILLS SECTION END -->
     <!-- KNOWLEDGE SECTION START -->
-    <section id="knowledge" class="section">
+    @*<section id="knowledge" class="section">
         <div class="container section-wrapper">
             <div class="section-content">
                 <div class="row">
@@ -1101,12 +1126,12 @@
                         <h2 class="section-title">Knowledge</h2>
                         <p class="section-subtitle">Human behavior flows from three main sources: desire, emotion, and knowledge.</p>
                         <span class="divider center"></span>
-                    </div>
+                    </div>*@
                     <!-- //.col-md-8 -->
-                </div>
+                @*</div>*@
                 <!-- //.row -->
                 <!-- BAR CHART START -->
-                <div class="row">
+                @*<div class="row">
                     <div class="col-sm-6">
                         <div class="bar-chart">
                             <div class="item">
@@ -1178,9 +1203,9 @@
             </div>
             <!-- //.section-content -->
         </div>
-        <!-- //.container -->
+        <!-- //.container -->*@
 
-    </section>
+    @*</section>*@
     <!-- //KNOWLEDGE SECTION END -->
     <!-- ACCOLADES SECTION START -->
     @*<section id="accolades" class="section">
@@ -1254,7 +1279,7 @@
         </section>*@
     <!-- //ACCOLADES SECTION END -->
     <!-- MILESTONES SECTION START -->
-    <section id="milestones" class="section bg-image-yes">
+    @*<section id="milestones" class="section bg-image-yes">
         <div class="container-fluid section-wrapper">
             <div class="section-content">
                 <div class="row">
@@ -1262,12 +1287,12 @@
                         <h2 class="section-title">Milestones Achieved</h2>
                         <p class="section-subtitle">My path has not been determined. I shall have more experiences and pass many more milestones.</p>
                         <span class="divider center"></span>
-                    </div>
+                    </div>*@
                     <!-- //.col-md-8 -->
-                </div>
+                @*</div>*@
                 <!-- //.row -->
                 <!-- MILESTONES START -->
-                <div class="milestones">
+                @*<div class="milestones">
                     <div class="row">
                         <div class="col-sm-6 col-md-3 item">
                             <div class="circle">
@@ -1321,7 +1346,7 @@
             <!-- //.section-content -->
         </div>
         <!-- //.container -->
-    </section>
+    </section>*@
     <!-- //MILESTONES SECTION END -->
     <!-- WORK PROCESS SECTION START -->
     <section id="work-process" class="section">
@@ -1478,7 +1503,7 @@
                     </div>
                     <!-- //.page-scroll -->
 
-                    <ul class="list-inline social-icons">
+                    
                         @*<li>
                             <div class="item">
                                 <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -1492,7 +1517,7 @@
                                 </div>*@
                         <!-- //.item -->
                         @*</li>*@
-
+                    <ul class="list-inline social-icons">
                         <li>
                             <div class="item">
                                 <a href="https://www.linkedin.com/in/chris-mcglynn-73614714a/" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -1502,18 +1527,18 @@
 
                         <li>
                             <div class="item">
-                                <a href="#" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://github.com/qpc4ever" target="_blank"><i class="fa fa-github"></i></a>
                             </div>
                             <!-- //.item -->
                         </li>
-
+                    </ul>
                         @*<li>
-                            <div class="item">
-                                <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
-                            </div>*@
+            <div class="item">
+                <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </div>*@
                         <!-- //.item -->
                         @*</li>*@
-                    </ul>
+                    
                 </div>
                 <!-- //.col-md-12 -->
             </div>
@@ -1531,13 +1556,17 @@
             <!-- //.row -->
         </div>
         <!-- //.container -->
-        <div id="modalPalindrome" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div style="background-color:black;" id="modalPalindrome" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <!-- Modal content-->
 
                 <h1>Palindrome Word Check</h1>
                 <input type="text" style="color:black" placeholder="Enter word" id="testword" onkeydown = "if (event.keyCode == 13) document.getElementById('run').click()"/>
                 <button id="run" onclick="palindrome(testword.value)" style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+
+                </div>
                 <div id="result"></div>
                 <pre class="brush: js">
             function palindrome(str) {
@@ -1553,13 +1582,16 @@
             </div>
         </div>
 
-        <div id="modalFactorial" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div style="background-color:black;" id="modalFactorial" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <!-- Modal content-->
 
                 <h1>Get factorial of a number</h1>
                 <input type="number" style="color:black" placeholder="Enter number" id="testNumber" onkeydown = "if (event.keyCode == 13) document.getElementById('Run').click()" />
                 <button id="Run" onclick="numFac()" style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="total"></div>
                 <pre class="brush: js">
             function numFac() {
@@ -1576,7 +1608,7 @@
             </div>
         </div>
 
-        <div id="modalFizzBuzz" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div style="background-color:black;" id="modalFizzBuzz" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <!-- Modal content-->
 
@@ -1584,6 +1616,9 @@
                 <input type="number" style="color:black" placeholder="Enter number" id="testNumber2" onkeydown = "if (event.keyCode == 13) document.getElementById('run2').click()" />
                 <input type="number" style="color:black" placeholder="Enter number" id="testNumber3" onkeydown = "if (event.keyCode == 13) document.getElementById('run2').click()" />
                 <button id="run2" onclick="fizzBuzz()"style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="result2"></div>
                 <pre class="brush: js">
             function fizzBuzz() {
@@ -1613,13 +1648,16 @@
             </div>
         </div>
 
-        <div id="modalCalc" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div style="background-color:black;" id="modalCalc" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <!-- Modal content-->
 
                 <h1>Test numbers</h1>
 
                 <button id="run3" onclick="numCal()" style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="Result5"></div>
                 <div id="Result"></div>
                 <div id="Result2"></div>
@@ -1667,13 +1705,16 @@
             </div>
         </div>
 
-        <div id="modalAlphabeticalOrder" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div style="background-color:black;" id="modalAlphabeticalOrder" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <!-- Modal content-->
 
                 <h1>Letters of words in alphabetical order</h1>
                 <input type="text" style="color:black" id="testWord" onkeydown = "if (event.keyCode == 13) document.getElementById('run4').click()" />
                 <button id="run4" onclick="wordAlph(testWord.value)"style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="alph"></div>
                 <pre class="brush: js">
                                 function wordAlph(str) {
@@ -1685,12 +1726,15 @@
             </div>
         </div>
 
-        <div id="modalWordCombo" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div style="background-color:black;" id="modalWordCombo" class="modal fade" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 
                 <h1>Letter combinations of words</h1>
                 <input type="text" style="color:black" id="testWord2" onkeydown = "if (event.keyCode == 13) document.getElementById('run5').click()" />
                 <button id="run5" onclick="wordComb(testWord2.value)" style="color:black; border-radius:8px">Execute</button>
+                <div>
+                    @Html.ActionLink("Back", "Index")
+                </div>
                 <div id="combo"></div>
                 <pre class="brush: js">
                     function wordComb(str1) {

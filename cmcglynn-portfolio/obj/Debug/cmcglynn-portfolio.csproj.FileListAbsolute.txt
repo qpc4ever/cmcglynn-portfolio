@@ -52,3 +52,4 @@ c:\users\demol\documents\visual studio 2017\Projects\cmcglynn-portfolio\cmcglynn
 c:\users\demol\documents\visual studio 2017\Projects\cmcglynn-portfolio\cmcglynn-portfolio\obj\Debug\cmcglynn-portfolio.csprojResolveAssemblyReference.cache
 c:\users\demol\documents\visual studio 2017\Projects\cmcglynn-portfolio\cmcglynn-portfolio\obj\Debug\cmcglynn-portfolio.dll
 c:\users\demol\documents\visual studio 2017\Projects\cmcglynn-portfolio\cmcglynn-portfolio\obj\Debug\cmcglynn-portfolio.pdb
+C:\Users\demol\Documents\Visual Studio 2017\Projects\cmcglynn-portfolio\cmcglynn-portfolio\obj\Debug\cmcglynn-portfolio.csproj.CoreCompileInputs.cache

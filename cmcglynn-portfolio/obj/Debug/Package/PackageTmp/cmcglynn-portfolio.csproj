@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -99,9 +100,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\0807170831c.jpg" />
+    <Content Include="assets\images\0912171437a.jpg" />
     <Content Include="assets\images\2847017-3d-person-puppet-pushing-uphill-a-heavy-stone-Stock-Photo.jpg" />
+    <Content Include="assets\images\cm.jpg" />
+    <Content Include="assets\images\cm_monogram_1x.png" />
+    <Content Include="assets\images\IMG_Chris_McGlynn %28C%29.jpg" />
+    <Content Include="assets\images\Laptop-512.png" />
+    <Content Include="assets\images\Laptop.png" />
     <Content Include="assets\images\maxresdefault %281%29.jpg" />
+    <Content Include="assets\images\PNGPIX-COM-Dollar-Sign-PNG-Image.png" />
     <Content Include="assets\images\popeye-wallpaper-free-hd.jpg" />
+    <Content Include="assets\images\QPCPodcast3NoTextCrop.png" />
+    <Content Include="assets\images\shutterstock_613690118_720-696x464.jpg" />
     <Content Include="JavaScriptExercises\AlphabeticalOrder.js" />
     <Content Include="JavaScriptExercises\Calc.js" />
     <Content Include="JavaScriptExercises\Factorial.js" />
@@ -132,8 +143,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <None Include="Properties\PublishProfiles\cmcglynn-portfolio - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\cmcglynn-portfolio - Web Deploy.pubxml" />
+    <Content Include="assets\images\Chris McGlynn.pdf" />
+    <None Include="Properties\PublishProfiles\cmcglynn.a2hosted.com - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -594,9 +605,9 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="assets\App_Start\BundleConfig.cs" />
+    <Compile Include="assets\App_Start\FilterConfig.cs" />
+    <Compile Include="assets\App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
