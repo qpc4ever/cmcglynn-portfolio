@@ -154,6 +154,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="assets\images\Chris McGlynn.pdf" />
+    <Content Include="assets\images\McGlynn resume web develop 180221.docx" />
     <None Include="Properties\PublishProfiles\cmcglynn.a2hosted.com - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -136,6 +136,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="assets/images/maxresdefault.jpg">
       <publishTime>09/06/2017 11:02:23</publishTime>
     </File>
+    <File Include="assets/images/McGlynn resume web develop 180221.docx">
+      <publishTime>03/08/2018 21:43:15</publishTime>
+    </File>
     <File Include="assets/images/online-shopping-1929002_960_720.png">
       <publishTime>02/19/2018 23:53:20</publishTime>
     </File>
@@ -1205,10 +1208,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2013 07:43:40</publishTime>
     </File>
     <File Include="bin/cmcglynn-portfolio.dll">
-      <publishTime>02/20/2018 00:51:04</publishTime>
+      <publishTime>05/16/2018 16:27:37</publishTime>
     </File>
     <File Include="bin/cmcglynn-portfolio.pdb">
-      <publishTime>02/20/2018 00:51:04</publishTime>
+      <publishTime>05/16/2018 16:27:37</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>12/13/2016 02:10:32</publishTime>
@@ -1616,7 +1619,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/06/2017 09:38:02</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/20/2018 00:50:39</publishTime>
+      <publishTime>05/16/2018 16:53:09</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>09/06/2017 09:41:24</publishTime>
